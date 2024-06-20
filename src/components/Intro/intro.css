@@ -56,7 +56,7 @@
 
 @media screen and (max-width:840px) {    /* When screen size comes to 840px and less tha that */
     .bg {
-        left: -16vw;
+        left: -10vw;
     }
     .introContent {
         font-size: 10vw;
