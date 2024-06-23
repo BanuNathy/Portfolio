@@ -6,7 +6,10 @@ const Skills = () => {
   return (
     <section id='skills'>
         <span className="skillTitle">What I do</span>
-        <span className="skillDesc">As a web development software engineer, I specialize in crafting robust, user-friendly websites and applications. Proficient in both front-end and back-end, I bring creativity and technical expertise to deliver seamless digital solutions. Let's collaborate to bring your ideas to life!</span>
+        <span className="skillDesc"> I'm an undergraduate pursuing the BSc(Hons) in
+ Computing and Information Systems degree
+ program at the Sabaragamuwa University of
+ SriLanka,As a web development software engineer, I specialize in crafting robust, user-friendly websites and applications. Proficient in both front-end and back-end, I bring creativity and technical expertise to deliver seamless digital solutions. Let's collaborate to bring your ideas to life!</span>
          <div className="skillBars">
             <div className="skillBar">
                 <img src={UIDesign} alt="" className="skillBarImg" />
