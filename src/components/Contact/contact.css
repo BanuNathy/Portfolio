@@ -44,7 +44,7 @@
 }
 
 .submitBtn {
-    background: white;
+    background: rgb(170, 229, 155);
     border: none;
     border-radius: 0.5rem;
     margin: 2rem;
@@ -54,6 +54,7 @@
 .links {
     display: flex;
     flex-wrap: wrap;
+    gap: 1rem;
 }
 
 .link {

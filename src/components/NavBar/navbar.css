@@ -25,13 +25,13 @@
 }
 
 .desktopMenuListItem:hover {
-        color: yellow;
+        color: rgb(170, 229, 155);
         padding-bottom: 0.5rem;
-        border-bottom: 3px solid yellow;
+        border-bottom: 3px solid rgb(170, 229, 155);
     }
 
 .desktopMenuBtn{
-    background: white;
+    background: rgb(170, 229, 155);
     color: black;
     border: none;
     display: flex;
@@ -42,9 +42,9 @@
 }
 
 .active {
-    color: yellow;
+    color: rgb(170, 229, 155);
     padding-bottom: 0.5rem;
-    border-bottom: 3px solid yellow;
+    border-bottom: 3px solid rgb(170, 229, 155);
 }
 
 .mobMenu {
