@@ -1,7 +1,7 @@
 #intro{
     height: cals(100vh - 4rem);  /* 4rem = height of navbar */ 
-    width: 100vw;
-    max-width: 75rem;
+    width: 120vw;
+    max-width: 90rem;
     margin: 0 auto;
     overflow: hidden;
     position: relative; 
@@ -14,12 +14,13 @@
     left: 37rem;
     z-index: -1;
     object-fit: cover;
-    height: 100vh;
+    height: 99vh;
+    width:48vw;
 }
 
 .introContent {
-    height: 100vh;
-    width: 100vw;
+    height: 950px;
+    width: 100;
    /* position: absolute;
     left: 6;
    right: 6rem;
@@ -34,26 +35,32 @@
 }
 
 .hello {
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 100;
+    margin-bottom: 0.75rem;
 }
 
 .introName {
     color: white;
 }
 
+
 .introPara {
-    font-size: 1.5rem;
-    font-weight: 300;
+    margin-top: 0.75rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: 100;
     letter-spacing: 1px; 
 }
 
 .btn {
     background: rgb(170, 229, 155);
-    margin: 1rem 0;
-    padding: 0.75rem 1.5rem;
+    margin-top:  auto;
+    padding: 1rem 3rem;
     border: none;
     border-radius: 1rem;
+    font-size: 1.5rem;
+    font-weight: 400;
 }
 
 @media screen and (max-width:840px) {    /* When screen size comes to 840px and less tha that */

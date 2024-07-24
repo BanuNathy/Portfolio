@@ -1,5 +1,6 @@
 #works {
-    margin: 0 auto; 
+   margin-left: auto;
+   margin-right: auto;
    min-height: calc(100vh - 4rem);
    width: 100vw;
    max-width: 60rem;
@@ -9,6 +10,12 @@
    justify-content: center;
    text-align: center;
    padding: 0 1rem;
+}
+
+.workSesc {
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.3rem;
 }
 
 .worksTitle {
@@ -29,18 +36,20 @@
     margin: 0.8rem;
     padding: 1.5rem 2rem;
     border-radius: 0.5rem;
-    background: rgb(90, 146, 180);
-    font-size: 0.9rem;
+    background: rgb(173, 218, 204);
+    font-size: 1.3rem;
     font-weight: 200;
-    width: 500%;
-    align-items: center;
-    justify-content: center;
+    width: 100%;
+    text-align: left;
+    margin-left: 0%;
+    margin-right: 0%;
+    color: black;
 }
 
-.project {
+/* .project {
     display: flex;
     flex-direction: row;
-}
+} */
 
 .worksDesc .p-one {
     text-align: center;
@@ -70,7 +79,7 @@
     border: none;
     border-radius: 2rem;
     background: rgb(170, 229, 155);
-    font-size: 1rem;
+    font-size: 1.3rem;
 }
 
 @media screen and (max-width:585px) {

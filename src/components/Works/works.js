@@ -11,14 +11,17 @@ const Works = () => {
   return (
     <section id='works'>
         <h2 className="worksTitle">My Projects</h2>
-        <span className="workSesc">simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</span>
+        <span className="workSesc">My portfolio features diverse projects including a Flutter mobile app for seamless user experiences, a Python data analysis tool for insights, an OpenWeather API-integrated weather app, Spotify API-driven music recommendation system, Firebase-powered backend for scalability, React JS frontend for dynamic UI, and Spring Boot with MySQL for robust backend services.</span>
 
-        <div className='project'>
         <div className="projectContent">
-           <p>Project A</p>
-           <p>Description Paragraph</p>
-           <p>Skills</p>
-           <p>Source(Github)</p>
+           <p>Auto-Play music system</p>
+           <p>This AI-powered system offers personalized
+            music recommendations based on user
+            preferences and environment</p>
+           <p>Flutter,python, openWeather
+           API, Spotify API, Firebase</p>
+           <p>Github link:
+           github.com/BanuNathy/Auto_Play.git</p>
         </div> 
 
         <div className="projectContent">
@@ -27,9 +30,7 @@ const Works = () => {
            <p>Skills</p>
            <p>Source(Github)</p>
         </div> 
-        </div>
 
-        <div className='project'>
         <div className="projectContent">
            <p>Project C</p>
            <p>Description Paragraph</p>
@@ -43,7 +44,6 @@ const Works = () => {
            <p>Skills</p>
            <p>Source(Github)</p>
         </div> 
-        </div>
 
         <button className="workBtn">See More</button>
     </section>

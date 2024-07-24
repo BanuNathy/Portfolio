@@ -43,13 +43,6 @@ const Skills = () => {
                 {/* </div> */}
             </div>
 
-            {/* <div className="skillBar">
-                {/* <img src="AppDesign" alt="" className="skillBarImg" /> */}
-                {/* <div className="SkillBarText3"> */}
-                    {/* <h2>Back-end Web Development</h2>
-                    <p>Demo Text</p> */}
-                {/* </div> */}
-            {/* </div> */} 
             </div>
 
             </div>  
