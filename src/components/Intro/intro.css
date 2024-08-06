@@ -1,7 +1,7 @@
 #intro{
     height: cals(100vh - 4rem);  /* 4rem = height of navbar */ 
     width: 120vw;
-    max-width: 90rem;
+    max-width: 73rem;
     margin: 0 auto;
     overflow: hidden;
     position: relative; 

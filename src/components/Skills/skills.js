@@ -43,6 +43,14 @@ const Skills = () => {
                 {/* </div> */}
             </div>
 
+            <div className="skillBar">
+                {/* <img src="WebDesign" alt="" className="skillBarImg" /> */}
+                {/* <div className="SkillBarText"> */}
+                    <h2>Full Stack</h2>
+                    <p></p>
+                {/* </div> */}
+            </div>
+
             </div>
 
             </div>  
